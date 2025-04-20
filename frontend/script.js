@@ -11,7 +11,7 @@ document.getElementById('form').addEventListener('submit', async (e) => {
     typePreference: document.getElementById('stringType').value
   };
 
-  const res = await fetch('https://tennis-recommender.onrender.com/recommend', {
+  const res = await fetch('https://tennis-recommender.onrender.com', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(data)
