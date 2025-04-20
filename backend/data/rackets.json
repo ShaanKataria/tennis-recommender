@@ -1,0 +1,165 @@
+[
+  {
+    "name": "Babolat Ballfighter 17",
+    "level": "Junior",
+    "length": 17,
+    "minAge": 2,
+    "maxAge": 4,
+    "armFriendly": true
+  },
+  {
+    "name": "Wilson US Open 19",
+    "level": "Junior",
+    "length": 19,
+    "minAge": 3,
+    "maxAge": 5,
+    "armFriendly": true
+  },
+  {
+    "name": "Head Novak 19",
+    "level": "Junior",
+    "length": 19,
+    "minAge": 3,
+    "maxAge": 5,
+    "armFriendly": true
+  },
+  {
+    "name": "Yonex EZONE 21",
+    "level": "Junior",
+    "length": 21,
+    "minAge": 5,
+    "maxAge": 6,
+    "armFriendly": true
+  },
+  {
+    "name": "Head Coco 21",
+    "level": "Junior",
+    "length": 21,
+    "minAge": 5,
+    "maxAge": 6,
+    "armFriendly": true
+  },
+  {
+    "name": "Babolat Ballfighter 23",
+    "level": "Junior",
+    "length": 23,
+    "minAge": 7,
+    "maxAge": 8,
+    "armFriendly": true
+  },
+  {
+    "name": "Wilson US Open 23",
+    "level": "Junior",
+    "length": 23,
+    "minAge": 7,
+    "maxAge": 8,
+    "armFriendly": true
+  },
+  {
+    "name": "Head Speed 25",
+    "level": "Junior",
+    "length": 25,
+    "minAge": 9,
+    "maxAge": 10,
+    "armFriendly": true
+  },
+  {
+    "name": "Babolat Pure Aero Rafa 25",
+    "level": "Junior",
+    "length": 25,
+    "minAge": 9,
+    "maxAge": 10,
+    "armFriendly": true
+  },
+  {
+    "name": "Wilson Clash 26",
+    "level": "Junior",
+    "length": 26,
+    "minAge": 11,
+    "maxAge": 13,
+    "armFriendly": true
+  },
+  {
+    "name": "Head Gravity Jr. 26",
+    "level": "Junior",
+    "length": 26,
+    "minAge": 11,
+    "maxAge": 13,
+    "armFriendly": true
+  },
+  {
+    "name": "Wilson Clash 100",
+    "level": "Beginner",
+    "armFriendly": true
+  },
+  {
+    "name": "Babolat Boost Drive",
+    "level": "Beginner",
+    "armFriendly": true
+  },
+  {
+    "name": "Head Titanium Ti.S6",
+    "level": "Beginner",
+    "armFriendly": true
+  },
+  {
+    "name": "Yonex EZONE Ace",
+    "level": "Beginner",
+    "armFriendly": true
+  },
+  {
+    "name": "Babolat Pure Drive",
+    "level": "Intermediate",
+    "armFriendly": false
+  },
+  {
+    "name": "Head Speed MP",
+    "level": "Intermediate",
+    "armFriendly": true
+  },
+  {
+    "name": "Yonex EZONE 100",
+    "level": "Intermediate",
+    "armFriendly": true
+  },
+  {
+    "name": "Wilson Ultra 100 v4",
+    "level": "Intermediate",
+    "armFriendly": false
+  },
+  {
+    "name": "Prince Beast 100",
+    "level": "Intermediate",
+    "armFriendly": true
+  },
+  {
+    "name": "Wilson Blade 98",
+    "level": "Advanced",
+    "armFriendly": false
+  },
+  {
+    "name": "Wilson Pro Staff 97",
+    "level": "Advanced",
+    "armFriendly": false
+  },
+  {
+    "name": "Head Radical Pro",
+    "level": "Advanced",
+    "armFriendly": false
+  },
+  {
+    "name": "Yonex VCORE 98",
+    "level": "Advanced",
+    "armFriendly": false
+  },
+  {
+    "name": "Babolat Pure Aero",
+    "level": "Advanced",
+    "armFriendly": false
+  },
+  {
+    "name": "Prince Phantom 100X",
+    "level": "Advanced",
+    "armFriendly": true
+  }
+]

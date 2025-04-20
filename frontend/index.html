@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tennis Racket & String Recommender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Tennis Racket & String Finder 🎾</h1>
+    <form id="form">
+      <label>Skill Level:
+        <select id="level">
+          <option>Beginner</option>
+          <option>Intermediate</option>
+          <option>Advanced</option>
+        </select>
+      </label>
+      <label>Power (1–10):
+        <input type="number" id="power" min="1" max="10" required />
+      </label>
+      <label>Control (1–10):
+        <input type="number" id="control" min="1" max="10" required />
+      </label>
+      <label>Spin (1–10):
+        <input type="number" id="spin" min="1" max="10" required />
+      </label>
+      <label>Arm Sensitivity:
+        <select id="armSensitive">
+          <option value="true">Yes</option>
+          <option value="false">No</option>
+        </select>
+      </label>
+      <label>Age:
+        <input type="number" id="age" min="2" required />
+      </label>
+      <label>Preferred String Type:
+        <select id="stringType">
+          <option value="">Any</option>
+          <option value="Polyester">Polyester</option>
+          <option value="Multifilament">Multifilament</option>
+          <option value="Synthetic Gut">Synthetic Gut</option>
+          <option value="Natural Gut">Natural Gut</option>
+        </select>
+      </label>
+      <button type="submit">🎾 Get Recommendation</button>
+    </form>
+    <div id="output"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

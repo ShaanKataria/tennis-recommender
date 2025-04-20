@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Wilson NXT",
+    "type": "Multifilament",
+    "armFriendly": true,
+    "spin": 6,
+    "control": 7,
+    "power": 8
+  },
+  {
+    "name": "Luxilon ALU Power",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 8,
+    "control": 9,
+    "power": 5
+  },
+  {
+    "name": "Babolat RPM Blast",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 10,
+    "control": 8,
+    "power": 6
+  },
+  {
+    "name": "Tecnifibre X-One Biphase",
+    "type": "Multifilament",
+    "armFriendly": true,
+    "spin": 6,
+    "control": 7,
+    "power": 9
+  },
+  {
+    "name": "Solinco Hyper-G",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 9,
+    "control": 8,
+    "power": 6
+  },
+  {
+    "name": "Head Velocity MLT",
+    "type": "Multifilament",
+    "armFriendly": true,
+    "spin": 6,
+    "control": 7,
+    "power": 8
+  },
+  {
+    "name": "Yonex Poly Tour Pro",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 7,
+    "control": 8,
+    "power": 6
+  },
+  {
+    "name": "Tecnifibre NRG2",
+    "type": "Multifilament",
+    "armFriendly": true,
+    "spin": 5,
+    "control": 6,
+    "power": 9
+  },
+  {
+    "name": "Babolat VS Touch",
+    "type": "Natural Gut",
+    "armFriendly": true,
+    "spin": 6,
+    "control": 8,
+    "power": 10
+  },
+  {
+    "name": "Solinco Tour Bite",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 10,
+    "control": 9,
+    "power": 5
+  },
+  {
+    "name": "Prince Synthetic Gut Duraflex",
+    "type": "Synthetic Gut",
+    "armFriendly": true,
+    "spin": 5,
+    "control": 6,
+    "power": 7
+  },
+  {
+    "name": "Head RIP Control",
+    "type": "Multifilament",
+    "armFriendly": true,
+    "spin": 6,
+    "control": 7,
+    "power": 7
+  },
+  {
+    "name": "Kirschbaum Pro Line II",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 8,
+    "control": 9,
+    "power": 6
+  },
+  {
+    "name": "Gosen OG Sheep Micro",
+    "type": "Synthetic Gut",
+    "armFriendly": true,
+    "spin": 5,
+    "control": 6,
+    "power": 7
+  },
+  {
+    "name": "Diadem Solstice Power",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 9,
+    "control": 8,
+    "power": 6
+  },
+  {
+    "name": "Ashaway MonoGut ZX",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 7,
+    "control": 8,
+    "power": 7
+  },
+  {
+    "name": "Gamma TNT2",
+    "type": "Synthetic Gut",
+    "armFriendly": true,
+    "spin": 6,
+    "control": 7,
+    "power": 7
+  },
+  {
+    "name": "Volkl Cyclone",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 9,
+    "control": 8,
+    "power": 5
+  },
+  {
+    "name": "Luxilon 4G",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 8,
+    "control": 9,
+    "power": 6
+  },
+  {
+    "name": "Wilson Sensation",
+    "type": "Multifilament",
+    "armFriendly": true,
+    "spin": 5,
+    "control": 6,
+    "power": 8
+  },
+  {
+    "name": "Babolat Xcel",
+    "type": "Multifilament",
+    "armFriendly": true,
+    "spin": 6,
+    "control": 7,
+    "power": 9
+  },
+  {
+    "name": "Head Sonic Pro",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 7,
+    "control": 8,
+    "power": 6
+  },
+  {
+    "name": "Prince Premier Control",
+    "type": "Multifilament",
+    "armFriendly": true,
+    "spin": 6,
+    "control": 8,
+    "power": 7
+  },
+  {
+    "name": "Tourna Big Hitter Silver",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 8,
+    "control": 9,
+    "power": 5
+  },
+  {
+    "name": "Tecnifibre HDX Tour",
+    "type": "Multifilament",
+    "armFriendly": true,
+    "spin": 6,
+    "control": 8,
+    "power": 7
+  },
+  {
+    "name": "Polyfibre TCS",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 9,
+    "control": 8,
+    "power": 5
+  },
+  {
+    "name": "Weiss Cannon Silverstring",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 7,
+    "control": 9,
+    "power": 6
+  },
+  {
+    "name": "Signum Pro Poly Plasma",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 8,
+    "control": 8,
+    "power": 6
+  },
+  {
+    "name": "Head Reflex MLT",
+    "type": "Multifilament",
+    "armFriendly": true,
+    "spin": 6,
+    "control": 8,
+    "power": 8
+  },
+  {
+    "name": "Tecnifibre Multifeel",
+    "type": "Multifilament",
+    "armFriendly": true,
+    "spin": 5,
+    "control": 6,
+    "power": 8
+  },
+  {
+    "name": "Babolat Origin",
+    "type": "Polyester",
+    "armFriendly": false,
+    "spin": 7,
+    "control": 8,
+    "power": 7
+  }
+]
