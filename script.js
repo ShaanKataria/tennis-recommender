@@ -1,3 +1,4 @@
+
 document.getElementById('form').addEventListener('submit', async (e) => {
   e.preventDefault();
 
@@ -11,18 +12,29 @@ document.getElementById('form').addEventListener('submit', async (e) => {
     typePreference: document.getElementById('stringType').value
   };
 
-  const res = await fetch('https://tennis-recommender.onrender.com/recommend', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(data)
-  });
+  const rackets = JSON.parse(document.getElementById("rackets-data").textContent);
+  const strings = JSON.parse(document.getElementById("strings-data").textContent);
 
-  const result = await res.json();
+  const bestRacket = rackets.find(r =>
+    r.level.toLowerCase() === data.level.toLowerCase() &&
+    (r.armFriendly === data.armSensitive) &&
+    (!r.minAge || (data.age >= r.minAge && data.age <= r.maxAge))
+  ) || rackets.find(r => r.level.toLowerCase() === data.level.toLowerCase());
+
+  const bestString = strings
+    .filter(s => s.type.toLowerCase().includes(data.typePreference.toLowerCase()))
+    .sort((a, b) => {
+      const aScore = Math.abs(data.spin - a.spin) + Math.abs(data.power - a.power) + Math.abs(data.control - a.control);
+      const bScore = Math.abs(data.spin - b.spin) + Math.abs(data.power - b.power) + Math.abs(data.control - b.control);
+      return aScore - bScore;
+    })[0];
+
+  const tension = data.armSensitive ? 50 : 55;
 
   document.getElementById('output').innerHTML = `
     <h2>🎾 Your Recommended Setup</h2>
-    <p><strong>Racket:</strong> ${result.racket}</p>
-    <p><strong>String:</strong> ${result.string}</p>
-    <p><strong>Suggested Tension:</strong> ${result.tension} lbs</p>
+    <p><strong>Racket:</strong> ${bestRacket ? bestRacket.name : 'No match found'}</p>
+    <p><strong>String:</strong> ${bestString ? bestString.name : 'No match found'}</p>
+    <p><strong>Suggested Tension:</strong> ${tension} lbs</p>
   `;
 });
